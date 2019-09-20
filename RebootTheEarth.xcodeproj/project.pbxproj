@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216595A6233426BA00A339A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216595A5233426BA00A339A3 /* AppDelegate.swift */; };
+		216595A8233426BA00A339A3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216595A7233426BA00A339A3 /* FirstViewController.swift */; };
+		216595AA233426BA00A339A3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216595A9233426BA00A339A3 /* SecondViewController.swift */; };
+		216595AD233426BA00A339A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216595AB233426BA00A339A3 /* Main.storyboard */; };
+		216595AF233426BB00A339A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216595AE233426BB00A339A3 /* Assets.xcassets */; };
+		216595B2233426BB00A339A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216595B0233426BB00A339A3 /* LaunchScreen.storyboard */; };
+		217183CC23349975007F248D /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 217183CB23349975007F248D /* YOLOv3.mlmodel */; };
+		217183CE23350A9B007F248D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217183CD23350A9B007F248D /* ThirdViewController.swift */; };
+		217183D023351DB8007F248D /* BarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217183CF23351DB8007F248D /* BarController.swift */; };
+		217183D223352325007F248D /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217183D123352325007F248D /* ShareViewController.swift */; };
+		AFCE700090E6F21313067068 /* Pods_RebootTheEarth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE4F84D772DC8BC0C00A37 /* Pods_RebootTheEarth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D46DECF28EDC7CC7BE25A92 /* Pods-RebootTheEarth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebootTheEarth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RebootTheEarth/Pods-RebootTheEarth.debug.xcconfig"; sourceTree = "<group>"; };
+		216595A2233426BA00A339A3 /* RebootTheEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebootTheEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216595A5233426BA00A339A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		216595A7233426BA00A339A3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		216595A9233426BA00A339A3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		216595AC233426BA00A339A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		216595AE233426BB00A339A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		216595B1233426BB00A339A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		216595B3233426BB00A339A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217183CB23349975007F248D /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
+		217183CD23350A9B007F248D /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		217183CF23351DB8007F248D /* BarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarController.swift; sourceTree = "<group>"; };
+		217183D123352325007F248D /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		AABE4F84D772DC8BC0C00A37 /* Pods_RebootTheEarth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RebootTheEarth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59CCFF3DF561E26C9E94EDA /* Pods-RebootTheEarth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebootTheEarth.release.xcconfig"; path = "Pods/Target Support Files/Pods-RebootTheEarth/Pods-RebootTheEarth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2165959F233426BA00A339A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCE700090E6F21313067068 /* Pods_RebootTheEarth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		210AE8FDA89D28F069FBA1CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D46DECF28EDC7CC7BE25A92 /* Pods-RebootTheEarth.debug.xcconfig */,
+				D59CCFF3DF561E26C9E94EDA /* Pods-RebootTheEarth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		21659599233426BA00A339A3 = {
+			isa = PBXGroup;
+			children = (
+				216595A4233426BA00A339A3 /* RebootTheEarth */,
+				216595A3233426BA00A339A3 /* Products */,
+				210AE8FDA89D28F069FBA1CF /* Pods */,
+				9ED19971A1B9DB2B1C55632C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		216595A3233426BA00A339A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				216595A2233426BA00A339A3 /* RebootTheEarth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		216595A4233426BA00A339A3 /* RebootTheEarth */ = {
+			isa = PBXGroup;
+			children = (
+				216595A5233426BA00A339A3 /* AppDelegate.swift */,
+				216595A7233426BA00A339A3 /* FirstViewController.swift */,
+				216595A9233426BA00A339A3 /* SecondViewController.swift */,
+				217183CD23350A9B007F248D /* ThirdViewController.swift */,
+				217183CF23351DB8007F248D /* BarController.swift */,
+				217183D123352325007F248D /* ShareViewController.swift */,
+				217183CB23349975007F248D /* YOLOv3.mlmodel */,
+				216595AB233426BA00A339A3 /* Main.storyboard */,
+				216595AE233426BB00A339A3 /* Assets.xcassets */,
+				216595B0233426BB00A339A3 /* LaunchScreen.storyboard */,
+				216595B3233426BB00A339A3 /* Info.plist */,
+			);
+			path = RebootTheEarth;
+			sourceTree = "<group>";
+		};
+		9ED19971A1B9DB2B1C55632C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABE4F84D772DC8BC0C00A37 /* Pods_RebootTheEarth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216595A1233426BA00A339A3 /* RebootTheEarth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216595B6233426BB00A339A3 /* Build configuration list for PBXNativeTarget "RebootTheEarth" */;
+			buildPhases = (
+				802518D683F99B1683810712 /* [CP] Check Pods Manifest.lock */,
+				2165959E233426BA00A339A3 /* Sources */,
+				2165959F233426BA00A339A3 /* Frameworks */,
+				216595A0233426BA00A339A3 /* Resources */,
+				3FE36ACE544052C359148E96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RebootTheEarth;
+			productName = RebootTheEarth;
+			productReference = 216595A2233426BA00A339A3 /* RebootTheEarth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2165959A233426BA00A339A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Toby Kreiman";
+				TargetAttributes = {
+					216595A1233426BA00A339A3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2165959D233426BA00A339A3 /* Build configuration list for PBXProject "RebootTheEarth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21659599233426BA00A339A3;
+			productRefGroup = 216595A3233426BA00A339A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				216595A1233426BA00A339A3 /* RebootTheEarth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		216595A0233426BA00A339A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216595B2233426BB00A339A3 /* LaunchScreen.storyboard in Resources */,
+				216595AF233426BB00A339A3 /* Assets.xcassets in Resources */,
+				216595AD233426BA00A339A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FE36ACE544052C359148E96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RebootTheEarth/Pods-RebootTheEarth-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RebootTheEarth/Pods-RebootTheEarth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		802518D683F99B1683810712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RebootTheEarth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2165959E233426BA00A339A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217183D223352325007F248D /* ShareViewController.swift in Sources */,
+				216595AA233426BA00A339A3 /* SecondViewController.swift in Sources */,
+				216595A6233426BA00A339A3 /* AppDelegate.swift in Sources */,
+				217183CE23350A9B007F248D /* ThirdViewController.swift in Sources */,
+				217183CC23349975007F248D /* YOLOv3.mlmodel in Sources */,
+				216595A8233426BA00A339A3 /* FirstViewController.swift in Sources */,
+				217183D023351DB8007F248D /* BarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		216595AB233426BA00A339A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216595AC233426BA00A339A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		216595B0233426BB00A339A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216595B1233426BB00A339A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		216595B4233426BB00A339A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		216595B5233426BB00A339A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		216595B7233426BB00A339A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D46DECF28EDC7CC7BE25A92 /* Pods-RebootTheEarth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LCX682S6EY;
+				INFOPLIST_FILE = RebootTheEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreeapps.RebootTheEarth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		216595B8233426BB00A339A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59CCFF3DF561E26C9E94EDA /* Pods-RebootTheEarth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LCX682S6EY;
+				INFOPLIST_FILE = RebootTheEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreeapps.RebootTheEarth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2165959D233426BA00A339A3 /* Build configuration list for PBXProject "RebootTheEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216595B4233426BB00A339A3 /* Debug */,
+				216595B5233426BB00A339A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216595B6233426BB00A339A3 /* Build configuration list for PBXNativeTarget "RebootTheEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216595B7233426BB00A339A3 /* Debug */,
+				216595B8233426BB00A339A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2165959A233426BA00A339A3 /* Project object */;
+}
