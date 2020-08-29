@@ -54,8 +54,5 @@ Social Platform
 ### Minimum viable product 
 	Screenshots attached in the presentation. Incorporates the AI, social platform, and geolocation.
 	
-	
-<a><img src="https://drive.google.com/drive/u/0/folders/14k8iEDVKR0MYioITHBqGY-neJSL0IOV3" 
-alt="IMAGE ALT TEXT HERE" width="240" height="240" border="10" /></a>
 
 
