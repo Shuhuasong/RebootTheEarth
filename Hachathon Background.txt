@@ -1,0 +1,36 @@
+Plastic Waste + Recycle
+
+https://ideas.unite.un.org/plasticwaste/Page/Home
+
+Challenge background
+Plastic currently occupies nearly every part of the world’s economy, with its use being bolstered by its low cost and versatility. However, its rectilinear value chain has resulted in unprecedented economic and environmental challenges as a huge part of this material eventually becomes waste, much of which ends up on land, and in the coastal and marine environment.
+
+ 
+
+One of the most widely used plastics is polyethylene terephthalate, or PET, which is commonly used to produce food containers, beverage bottles, synthetic fibers and more. The global consumption of PET products is around 23.5MT (2016), 26.3% of which came from bottle water. The excess production of PET bottles in recent years has started affecting our environment (landfills and oceans or other water bodies). For maintaining balance in the usage of PET bottles, recycling has become a necessity.
+
+The common challenges in PET waste management, especially in developing countries are:
+
+Poor PET disposal management due to lack of information in each process.
+Financial constraints: human resources training/ necessary equipment to support waste segregation at the point of collection.
+Lack of public awareness and participation.
+The opportunities in PET waste management:
+
+If we encourage people to participate in the dumpsite spotting, the popularity of smartphones will provide countless monitoring points.
+Emerging technology like image recognition and deep learning can save the time and cost on personnel training.
+Challenge description
+Develop an app (mobile) that engages users in becoming a proactive garbage conscious community. The app should leverage smartphones as decentralized camera traps and geo-localization data point for both plastic dumping sites and recycling facilities. Thanks to its prosumers community the app would result in an informative map linking littered sites with waste management centers. The aim is to help waste management challenges associated with single-use plastic bottles using novel technologies like image recognition and smart data visualization to bridge the missing link between citizens and recycling sites.
+
+Functions of the apps could be:
+
+Helping government and other stakeholders on the dumpsite mapping:
+A citizen participation project which motivates people to share the geolocation (data point 1) and pictures (data point 2) of plastic litter (PET) and recycling centers (data point 3). Through image recognition the app could label the PET spotted in the images and clusters them by linking it to the proper location for recycling (waste management location can also be validated by the already listed ones on google). Thanks to this feature the government has a tool to identify hot spots of duped PET sites and opportunities for either linking it to waste management companies or deliberate for an ad hoc solution. Through global participation, it can also help with the evaluation of current status of plastic waste management among different regions, which providing more details for intergovernmental cooperation.
+
+Assisting the waste worker in recording/differentiating the waste they collect:
+With AI built into the app, waste workers will be able to take a photo of trash, and through image recognition, the tool will identify the items and their associated value. This will educate waste workers about the market value of materials, assist them with the classification, and maximize their efficiency.  Ultimately, this will boost waste workers’ wages and recycling rates.
+
+Guiding people to waste collection services near their house:
+Thanks to prosumers the app would be able to organically grow a comprehensive recycling location database. In this way users would acknowledge where they could easily recycle their waste, or the material posted on the picture. Not only this feature could positively impact plastic pollution but also help a behavioral change towards a sustainable mindset.
+
+Behavioral change through a “Gamification” feature:
+Gamification is the application of game-design elements and game principles in non-game contexts. In order to make the app more appealing it is recommended to think about gamification features that would recognize the effort of the users. In other words, the more users contribute to data collection the higher they score in public recognition (eg. Airbnb host vs super host ect.). In this way virtuous members of the community could be highlighted as plastic recycling champions. 
