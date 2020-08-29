@@ -11,7 +11,7 @@ Watch Demo, please click following picture
 alt="IMAGE ALT TEXT HERE" width="240" height="240" border="10" /></a>
 
 ### Globodo operates on three core features: 
-AI plastic detection system
-Geolocation
-Social Platform
+⋅⋅* AI plastic detection system
+⋅⋅* Geolocation
+⋅⋅* Social Platform
 
